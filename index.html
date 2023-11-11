@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="head">
+        <div class="header">
+            <div class="container">
+                <div class="header__top">
+                    <div class="header__search ">
+                        <div class="menu__mobile">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="search">
+                            <div class="icon"></div>
+                            <div class="input">
+                                <input type="text" placeholder="Search">
+                            </div>
+                            <span class="clear"></span>
+                        </div>
+                    </div>
+                    <div class="header__logo ">
+                        <a href="#"><img src="./img/header/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="header__service">
+                        <a class="header__account" href="#">Account</a>
+                        <a class="header__shoping" href="#">Shoping</a>
+                    </div>
+                </div>
+                <div class="header__bottom">
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Jewelry & Accessories</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Clothing & Shoes</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Home & Living</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Wedding & Party</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Toys & Entertainment</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Art & Collectibles</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Craft Supplies & Tools</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__content">
+                    <div class="header__cta">
+                        <div class="header__title">Collections</div>
+                        <div class="header__subtitle">you can explore ans shop many differnt collection
+                            from various barands here.</div>
+                        <a class="header__link" href="#">
+
+                            Shop Now</a>
+                    </div>
+                    <div class="header__img">
+                        <img src="./img/header/woman.jpg" alt="img">
+                    </div>
+                </div>
+            </div>
+            <div class="popup_bg">
+                <form class="popup__account">
+                    <div class="popup__account_close">
+                        <svg width="48" height="48" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M4.11 2.697L2.698 4.11 6.586 8l-3.89 3.89 1.415 1.413L8 9.414l3.89 3.89 1.413-1.415L9.414 8l3.89-3.89-1.415-1.413L8 6.586l-3.89-3.89z"
+                                fill="#000"></path>
+                        </svg>
+                    </div>
+                    <input type="text" placeholder="login">
+                    <input type="text" placeholder="password">
+                    <button class="login">Login</button>
+                    <button class="sign-up">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main class="content">
+        <section class="styles">
+            <div class="container">
+                <div class="styles__brands">
+                    <div class="styles__brand">
+                        <img src="./img/styles/logo/01.svg" alt="img">
+                    </div>
+                    <div class="styles__brand">
+                        <img src="./img/styles/logo/02.svg" alt="img">
+                    </div>
+                    <div class="styles__brand">
+                        <img src="./img/styles/logo/03.svg" alt="img">
+                    </div>
+                    <div class="styles__brand">
+                        <img src="./img/styles/logo/04.svg" alt="img">
+                    </div>
+                    <div class="styles__brand">
+                        <img src="./img/styles/logo/05.svg" alt="img">
+                    </div>
+                </div>
+                <div class="styles__gallery">
+                    <a href="#" class="styles__img styles__img_big img-1">
+                        <img src="./img/styles/img/card-1.jpg" alt="img">
+                    </a>
+                    <a href="#" class="styles__img  img-2">
+                        <img src="./img/styles/img/card-0.jpg" alt="img">
+                    </a>
+                    <a href="#" class="styles__img sale img-3">
+                        <img src="./img/styles/img/card-2.jpg" alt="img">
+                    </a>
+                    <a href="#" class="styles__img img-4">
+                        <img src="./img/styles/img/card-3.jpg" alt="img">
+                    </a>
+                    <a href="#" class="styles__img img-5">
+                        <img src="./img/styles/img/card-4.jpg" alt="img">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <div class="products__title title">Or subscribe to the newsletter</div>
+                <div class="products__header">
+                    <ul>
+                        <li class="products__filter active" data-type="All Products">All Products</li>
+                        <li class="products__filter" data-type="T-Shirt">T-Shirt</li>
+                        <li class="products__filter" data-type="Hoodies">Hoodies</li>
+                        <li class="products__filter" data-type="Jacket">Jacket</li>
+                    </ul>
+                    <div class="help">
+                        <select name="number" id="select">
+                            <option value="1">Low to High</option>
+                            <option value="2">High to Low</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="products__cards">
+                    <a class="product T-Shirt" href="#">
+                        <div class="product__img">
+                            <img src="./img/products/image-product-3.jpg" alt="img">
+                        </div>
+                        <div class="product__name">Adicolor Classics Joggers</div>
+                        <div class="product__info">
+                            <div class="product__category">Dress</div>
+                            <div class="product__price" data-price='63.85'>$63.85
+                                <span class="product__price_sale"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product T-Shirt" href="#">
+                        <div class="product__img">
+                            <img src="./img/products/image-product-4.jpg" alt="img">
+                        </div>
+                        <div class="product__name">Nike Sportswear Futura Luxe</div>
+                        <div class="product__info">
+                            <div class="product__category">Bag</div>
+                            <div class="product__price" data-price='130.00'>$130.00
+                                <span class="product__price_sale"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product Hoodies" href="#">
+                        <div class="product__img">
+                            <img src="./img/products/image-product-5.jpg" alt="img">
+                        </div>
+                        <div class="product__name">Geometric print Scarf</div>
+                        <div class="product__info">
+                            <div class="product__category">scarf</div>
+                            <div class="product__price" data-price='53.00'>$53.00
+                                <span class="product__price_sale"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product Hoodies" href="#">
+                        <div class="product__img sale">
+                            <img src="./img/products/image-product-0.jpg" alt="img">
+                        </div>
+                        <div class="product__name">Yellow Reserved Hoodie</div>
+                        <div class="product__info">
+                            <div class="product__category">Dress</div>
+                            <div class="product__price" data-price='364.00'>$364.00
+                                <span class="product__price_sale"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product Jacket" href="#">
+                        <div class="product__img hot">
+                            <img src="./img/products/image-product-7.jpg" alt="img">
+                        </div>
+                        <div class="product__name">Basic Dress Green</div>
+                        <div class="product__info">
+                            <div class="product__category">Dress</div>
+                            <div class="product__price" data-price='236.00'>$236.00
+                                <span class="product__price_sale"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product Jacket" href="#">
+                        <div class="product__img sale">
+                            <img src="./img/products/image-product-6.jpg" alt="img">
+                        </div>
+                        <div class="product__name">Nike Air Zoom Pegasus</div>
+                        <div class="product__info">
+                            <div class="product__category">shoe</div>
+                            <div class="product__price" data-price='220.00'>$220.00
+                                <span class="product__price_sale"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product" href="#">
+                        <div class="product__img">
+                            <img src="./img/products/image-product-1.jpg" alt="img">
+                        </div>
+                        <div class="product__name">Nike Repel Miler</div>
+                        <div class="product__info">
+                            <div class="product__category">Dress</div>
+                            <div class="product__price" data-price='120.50'>$120.50
+                                <span class="product__price_sale"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product" href="#">
+                        <div class="product__img ">
+                            <img src="./img/products/image-product-2.jpg" alt="img">
+                        </div>
+                        <div class="product__name">Nike Sportswear Futura Luxe</div>
+                        <div class="product__info">
+                            <div class="product__category">Glasses</div>
+                            <div class="product__price" data-price='160.00'>$160.00
+                                <span class="product__price_sale"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="zara">
+            <div class="container">
+                <div class="zara__info">
+                    <a href="#" class="zara__logo">
+                        <img src="./img/zara/logo.svg" alt="img">
+                    </a>
+                    <div class="zara__text">Lustrous yet understated. The new evening
+                        wear collection exclusively offered at the
+                        reopened Giorgio Armani boutique in Los
+                        Angeles.</div>
+                    <a class="zara__btn" href="#">See Collection</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="best-sellers">
+            <div class="container">
+                <div class="best-sellers__title title">Best sellers</div>
+                <div class="slider">
+                    <a class="product T-Shirt" href="#">
+                        <div class="product__img">
+                            <img src="./img/products/image-product-3.jpg" alt="img">
+                        </div>
+                        <div class="product__name">Adicolor Classics Joggers</div>
+                        <div class="product__info">
+                            <div class="product__category">Dress</div>
+                            <div class="product__price" data-price='63.85'>$63.85
+                                <span class="product__price_sale"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product T-Shirt" href="#">
+                        <div class="product__img">
+                            <img src="./img/products/image-product-4.jpg" alt="img">
+                        </div>
+                        <div class="product__name">Nike Sportswear Futura Luxe</div>
+                        <div class="product__info">
+                            <div class="product__category">Bag</div>
+                            <div class="product__price" data-price='130.00'>$130.00
+                                <span class="product__price_sale"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product Hoodies" href="#">
+                        <div class="product__img">
+                            <img src="./img/products/image-product-5.jpg" alt="img">
+                        </div>
+                        <div class="product__name">Geometric print Scarf</div>
+                        <div class="product__info">
+                            <div class="product__category">scarf</div>
+                            <div class="product__price" data-price='53.00'>$53.00
+                                <span class="product__price_sale"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product Hoodies" href="#">
+                        <div class="product__img sale">
+                            <img src="./img/products/image-product-0.jpg" alt="img">
+                        </div>
+                        <div class="product__name">Yellow Reserved Hoodie</div>
+                        <div class="product__info">
+                            <div class="product__category">Dress</div>
+                            <div class="product__price" data-price='364.00'>$364.00
+                                <span class="product__price_sale"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product Hoodies" href="#">
+                        <div class="product__img">
+                            <img src="./img/products/image-product-5.jpg" alt="img">
+                        </div>
+                        <div class="product__name">Geometric print Scarf</div>
+                        <div class="product__info">
+                            <div class="product__category">scarf</div>
+                            <div class="product__price" data-price='53.00'>$53.00
+                                <span class="product__price_sale"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product Hoodies" href="#">
+                        <div class="product__img sale">
+                            <img src="./img/products/image-product-0.jpg" alt="img">
+                        </div>
+                        <div class="product__name">Yellow Reserved Hoodie</div>
+                        <div class="product__info">
+                            <div class="product__category">Dress</div>
+                            <div class="product__price" data-price='364.00'>$364.00
+                                <span class="product__price_sale"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product Jacket" href="#">
+                        <div class="product__img hot">
+                            <img src="./img/products/image-product-7.jpg" alt="img">
+                        </div>
+                        <div class="product__name">Basic Dress Green</div>
+                        <div class="product__info">
+                            <div class="product__category">Dress</div>
+                            <div class="product__price" data-price='236.00'>$236.00
+                                <span class="product__price_sale"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product Jacket" href="#">
+                        <div class="product__img sale">
+                            <img src="./img/products/image-product-6.jpg" alt="img">
+                        </div>
+                        <div class="product__name">Nike Air Zoom Pegasus</div>
+                        <div class="product__info">
+                            <div class="product__category">shoe</div>
+                            <div class="product__price" data-price='220.00'>$220.00
+                                <span class="product__price_sale"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product Jacket" href="#">
+                        <div class="product__img hot">
+                            <img src="./img/products/image-product-7.jpg" alt="img">
+                        </div>
+                        <div class="product__name">Basic Dress Green</div>
+                        <div class="product__info">
+                            <div class="product__category">Dress</div>
+                            <div class="product__price" data-price='236.00'>$236.00
+                                <span class="product__price_sale"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product Jacket" href="#">
+                        <div class="product__img sale">
+                            <img src="./img/products/image-product-6.jpg" alt="img">
+                        </div>
+                        <div class="product__name">Nike Air Zoom Pegasus</div>
+                        <div class="product__info">
+                            <div class="product__category">shoe</div>
+                            <div class="product__price" data-price='220.00'>$220.00
+                                <span class="product__price_sale"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="instagram">
+            <div class="container">
+                <div class="instagram__title title">Follow products and discounts on Instagram</div>
+                <div class="cards">
+                    <a class="card" href="#">
+                        <img src="./img/cards/card-0.jpg" alt="img">
+                    </a>
+                    <a class="card" href="#">
+                        <img src="./img/cards/card-1.jpg" alt="img">
+                    </a>
+                    <a class="card" href="#">
+                        <img src="./img/cards/card-2.jpg" alt="img">
+                    </a>
+                    <a class="card" href="#">
+                        <img src="./img/cards/card-3.jpg" alt="img">
+                    </a>
+                    <a class="card" href="#">
+                        <img src="./img/cards/card-4.jpg" alt="img">
+                    </a>
+                    <a class="card" href="#">
+                        <img src="./img/cards/card-5.jpg" alt="img">
+                    </a>
+
+                </div>
+                <div class="instagram__subtitle title">Or subscribe to the newsletter</div>
+                <form class="form" action="#">
+                    <input name="email" placeholder="Email address..." type="text">
+                    <button class="button">SUBMIT</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__navigation">
+                <div class="footer__info">
+                    <div class="footer__logo">
+                        <img src="./img/header/logo.png" alt="img">
+                    </div>
+                    <div class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua</div>
+                    <div class="footer__socials">
+                        <a href="#" class="footer__social">
+                            <img src="./img/footer/facebook.svg" alt="img">
+                        </a>
+                        <a href="#" class="footer__social">
+                            <img src="./img/footer/in.svg" alt="img">
+                        </a>
+                        <a href="#" class="footer__social">
+                            <img src="./img/footer/instagram.svg" alt="img">
+                        </a>
+                        <a href="#" class="footer__social">
+                            <img src="./img/footer/twitter.svg" alt="img">
+                        </a>
+                    </div>
+                </div>
+                <nav class="footer__nav">
+                    <div class="footer__menu">
+                        <div class="menu__title">CATALOG</div>
+                        <ul>
+                            <li class="footer__link"><a href="#">Necklaces</a></li>
+                            <li class="footer__link"><a href="#">hoodies</a></li>
+                            <li class="footer__link"><a href="#">Jewelry Box</a></li>
+                            <li class="footer__link"><a href="#">t-shirt</a></li>
+                            <li class="footer__link"><a href="#">jacket</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu">
+                        <div class="menu__title">ABOUT US</div>
+                        <ul>
+                            <li class="footer__link"><a href="#">Our Producers</a></li>
+                            <li class="footer__link"><a href="#">Sitemap</a></li>
+                            <li class="footer__link"><a href="#">FAQ</a></li>
+                            <li class="footer__link"><a href="#">About Us</a></li>
+                            <li class="footer__link"><a href="#">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu">
+                        <div class="menu__title">CUSTOMER SERVICES</div>
+                        <ul>
+                            <li class="footer__link"><a href="#"> Shipping & Returns
+                                </a></li>
+                            <li class="footer__link"><a href="#">Contact Us</a></li>
+                            <li class="footer__link"><a href="#">Track Your Order</a></li>
+                            <li class="footer__link"><a href="#">Product Care & Repair</a></li>
+                            <li class="footer__link"><a href="#"> Book an Appointment</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="footer__basement">
+            <div class="container">
+                <div class="basement">
+                    <div class="basement__year">© 2022 Coral , Inc.</div>
+                    <div class="basement__cards">
+                        <div class="basement__card">
+                            <img src="./img/footer/mastercard.svg" alt="img">
+                        </div>
+                        <div class="basement__card">
+                            <img src="./img/footer/paypal.svg" alt="img">
+                        </div>
+                        <div class="basement__card">
+                            <img src="./img/footer/visa.svg" alt="img">
+                        </div>
+                        <div class="basement__card">
+                            <img src="./img/footer/mastercard.svg" alt="img">
+                        </div>
+                        <div class="basement__card">
+                            <img src="./img/footer/paypal.svg" alt="img">
+                        </div>
+                        <div class="basement__card">
+                            <img src="./img/footer/visa.svg" alt="img">
+                        </div>
+                    </div>
+                    <a href="#" class="basement__link">Scroll to top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
